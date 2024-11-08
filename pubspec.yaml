@@ -54,7 +54,7 @@ flutter:
   assets:
     - assets/images/mercedes.jpg
     - assets/images/rolls-royce.jpg
-    - assets/images/porsche.jpg
+    - assets/images/lamborgini.jpg
 
   fonts:
     - family: Montserrat

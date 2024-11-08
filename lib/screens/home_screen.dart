@@ -41,7 +41,7 @@ class HomeScreen extends StatelessWidget {
                     Padding(
                       padding: EdgeInsets.all(8.0),
                       child: Image(
-                        image: AssetImage('assets/images/porsche.jpg'),
+                        image: AssetImage('assets/images/lamborgini.jpg'),
                       ),
                     ),
                   ],
@@ -109,6 +109,33 @@ class HomeScreen extends StatelessWidget {
                     color: Colors.blue[600],
                     size: 25,
                   ),
+                ),
+              ),
+
+              SizedBox(
+                height: 200,
+                child: ListView(
+                  scrollDirection: Axis.horizontal,
+                  children: const [
+                    Padding(
+                      padding: EdgeInsets.all(8.0),
+                      child: Image(
+                          image: NetworkImage(
+                              "https://www.motortrend.com/files/65a1cf603e8d5a0008ffb697/2026-chevrolet-camaro-ev.jpg?w=768&width=768&q=75&format=webp")),
+                    ),
+                    Padding(
+                      padding: EdgeInsets.all(8.0),
+                      child: Image(
+                          image: NetworkImage(
+                              "https://newsroom.porsche.com/.imaging/mte/porsche-templating-theme/image_1080x624/dam/pnr/2022/Motorsports/911-GT3-R-world-premiere/M22_3550_fine.jpeg/jcr:content/M22_3550_fine.jpeg")),
+                    ),
+                    Padding(
+                      padding: EdgeInsets.all(8.0),
+                      child: Image(
+                          image: NetworkImage(
+                              "https://i.bstr.es/highmotor/2018/12/gt-r-edicion-especial-japon.jpg")),
+                    ),
+                  ],
                 ),
               ),
             ],
