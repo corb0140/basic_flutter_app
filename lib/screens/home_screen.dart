@@ -54,11 +54,18 @@ class HomeScreen extends StatelessWidget {
                   borderRadius: BorderRadius.circular(8.0),
                 ),
                 child: ListTile(
-                  title: const Text('Mercedes Benz'),
+                  title: const Text(
+                    'Mercedes Benz',
+                    style: TextStyle(
+                        color: Colors.blue,
+                        fontSize: 20,
+                        fontWeight: FontWeight.w400,
+                        fontStyle: FontStyle.italic),
+                  ),
                   subtitle: const Text('\$50,000'),
                   leading: Icon(
                     Icons.car_rental,
-                    color: Colors.blue[600],
+                    color: Colors.grey[600],
                     size: 25,
                   ),
                 ),
@@ -70,11 +77,18 @@ class HomeScreen extends StatelessWidget {
                   borderRadius: BorderRadius.circular(8.0),
                 ),
                 child: ListTile(
-                  title: const Text('Rolls Royce'),
+                  title: const Text(
+                    'Rolls Royce',
+                    style: TextStyle(
+                      color: Colors.red,
+                      fontSize: 20,
+                      fontWeight: FontWeight.w700,
+                    ),
+                  ),
                   subtitle: const Text('\$450,000'),
                   leading: Icon(
                     Icons.car_rental,
-                    color: Colors.blue[600],
+                    color: Colors.grey[600],
                     size: 25,
                   ),
                 ),
@@ -86,11 +100,19 @@ class HomeScreen extends StatelessWidget {
                   borderRadius: BorderRadius.circular(8.0),
                 ),
                 child: ListTile(
-                  title: const Text('Porsche'),
+                  title: const Text(
+                    'Porsche',
+                    style: TextStyle(
+                      color: Colors.green,
+                      fontSize: 20,
+                      fontWeight: FontWeight.w600,
+                      fontStyle: FontStyle.italic,
+                    ),
+                  ),
                   subtitle: const Text('\$85,000'),
                   leading: Icon(
                     Icons.car_rental,
-                    color: Colors.blue[600],
+                    color: Colors.grey[600],
                     size: 25,
                   ),
                 ),
@@ -102,11 +124,40 @@ class HomeScreen extends StatelessWidget {
                   borderRadius: BorderRadius.circular(8.0),
                 ),
                 child: ListTile(
-                  title: const Text('Chevrolet'),
+                  title: const Text(
+                    'Chevrolet',
+                    style: TextStyle(
+                      color: Colors.orange,
+                      fontSize: 20,
+                      fontWeight: FontWeight.w400,
+                    ),
+                  ),
                   subtitle: const Text('\$25,000'),
                   leading: Icon(
                     Icons.car_rental,
-                    color: Colors.blue[600],
+                    color: Colors.grey[600],
+                    size: 25,
+                  ),
+                ),
+              ),
+              Container(
+                margin: const EdgeInsets.only(top: 10.0),
+                decoration: BoxDecoration(
+                  border: Border.all(color: Colors.blue.shade600, width: 2.0),
+                  borderRadius: BorderRadius.circular(8.0),
+                ),
+                child: ListTile(
+                  title: const Text(
+                    'Nissan',
+                    style: TextStyle(
+                      color: Colors.purple,
+                      fontSize: 20,
+                    ),
+                  ),
+                  subtitle: const Text('\$30,000'),
+                  leading: Icon(
+                    Icons.car_rental,
+                    color: Colors.grey[600],
                     size: 25,
                   ),
                 ),
